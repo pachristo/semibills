@@ -1,0 +1,41 @@
+{
+    "name": "djurovicigoor/larajsonresponse",
+    "description": "Laravel API wrapper for returning JSON response.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Djurovic Igor",
+            "email": "djurovic.igoor@gmail.com",
+            "homepage": "https://djurovic.dev"
+        }
+    ],
+    "homepage": "https://github.com/djurovicigoor/larajsonresponse",
+    "keywords": ["Laravel", "LaraJsonResponse"],
+    "require": {
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "DjurovicIgoor\\LaraJsonResponse\\": "src/"
+        }  ,
+        "files": [
+            "src/Helpers/functions.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DjurovicIgoor\\LaraJsonResponse\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DjurovicIgoor\\LaraJsonResponse\\LaraJsonResponseServiceProvider"
+            ],
+            "aliases": {
+                "LaraJsonResponse": "DjurovicIgoor\\LaraJsonResponse\\Facades\\LaraJsonResponse"
+            }
+        }
+    }
+}

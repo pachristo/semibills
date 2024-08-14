@@ -1,0 +1,15 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.koolkatcre8.semibill",
+            "sha256_cert_fingerprints": [
+                "CE:14:48:0A:BD:4D:27:18:5F:CA:AC:34:D1:63:E4:23:0B:4A:9B:78:A7:9B:28:F6:3B:AC:F6:04:8E:FE:A8:6D",
+                "C4:01:3A:E6:CD:16:18:F4:37:12:B5:0F:0C:35:F4:EF:46:D2:A4:CD:34:8C:98:F0:DE:3D:81:2D:11:4A:ED:18"
+            ]
+        }
+    }
+]
